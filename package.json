@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.22",
     "@types/styled-components": "^5.1.9",
     "next": "10.0.9",
     "prismic-dom": "^2.2.5",

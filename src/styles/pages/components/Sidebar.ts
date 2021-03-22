@@ -1,20 +1,9 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
-    .navbar {
-        background-color: #060b26;
-        height: 80px;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-
-    
-
     .nav-menu {
         background-color: #060b26;
-        width: 250px;
+        width: 200px;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -29,14 +18,13 @@ export const Container = styled.div`
     }
 
     .nav-text{
-        margin-left: 2rem;
         font-size: 2rem;
         background: none;
 
         display: flex;
         justify-content: start;
         align-items: center;
-        padding: 8px 0px 8px 16px;
+        padding: 8px 0px 8px 0px;
         list-style: none;
         height: 60px;
     }
@@ -59,19 +47,6 @@ export const Container = styled.div`
 
     .nav-menu-items {
         width: 100%;
-    }
-
-    .navbar-toggle {
-        margin-left: 2rem;
-        font-size: 2rem;
-        background: none;
-
-        background-color: #060b26;
-        width: 100%;
-        height: 80px;
-        display: flex;
-        justify-content: start;
-        align-items: center;
     }
 
     .nav-text a span {

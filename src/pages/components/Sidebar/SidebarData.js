@@ -1,25 +1,36 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
+
+import {
+    MdHome,
+    MdAccountCircle,
+    MdAttachMoney,
+    MdAssignment
+}  from 'react-icons/md';
 
 export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <MdHome />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Perfil',
+        path: '/profile',
+        icon: <MdAccountCircle />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Financeiro',
+        path: '/financial',
+        icon: <MdAttachMoney />,
         cName: 'nav-text'
     },
     {
         title: 'Reports',
         path: '/reports',
-        icon: <IoIcons.IoIosPaper />,
+        icon: <MdAssignment />,
         cName: 'nav-text'
     },
-    {
-        title: 'Profile',
-        path: '/profile',
-        icon: <AiIcons.AiOutlineUser />,
-        cName: 'nav-text'
-    },
+    
 ]
